@@ -7,17 +7,16 @@ import numpy as np
 
 def boostrap(sample, sample_size, iterations):
 	# <---INSERT YOUR CODE HERE--->
+	array = np.empty([iterations, sample_size])
+	mean = np.empty([iterations, 1])
 
+	for i in range(iterations):
+		array[i] = np.random.choice(sample, size=sample_size)
+		mean[i] = np.mean(array[i])
 
-	sample = df.values.T[1]
-	sample_size = 1.0
-	iterations = 1000
-	#confidence = 0.95
-
-	data_mean = np.mean
-	#lower = boostrap(data,iterations=iterations,sample_size=sample_size,)
-	#upper = boostrap(data,iterations=iterations,sample_size=sample_size,)
-	lower, upper = (data, np.mean, 0.05)
+	data_mean = np.mean(mean)
+	lower = np.percentile(mean, 2.5)
+	upper = np.percentile(mean, 97.5)
 	return data_mean, lower, upper
 
 
