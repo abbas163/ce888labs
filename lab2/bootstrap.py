@@ -6,6 +6,7 @@ import seaborn as sns
 import numpy as np
 
 
+
 def boostrap(sample, sample_size, iterations):
     # <---INSERT YOUR CODE HERE--->
     array = np.empty([iterations, sample_size])
