@@ -9,6 +9,8 @@ df  = pd.read_csv('./vehicles.csv')
 sns_plot = sns.lmplot(df.columns[0], df.columns[1], data=df, fit_reg=False)
 #sns_plot.set_title("Scaterplot for Current  and New Fleet")
 sns_plot.savefig("Scaterplot.pdf",bbox_inches='tight')
+sns_plot.savefig("Scaterplot.png",bbox_inches='tight')
+
 plt.show()
 
 cf=df.values.T[0]
