@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90aea51e-5434-41ff-8639-f036b564b2b5" name="Default Changelist" comment="completed" />
+    <list default="true" id="90aea51e-5434-41ff-8639-f036b564b2b5" name="Default Changelist" comment="completed">
+      <change beforePath="$PROJECT_DIR$/bootstrap.py" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vehicles.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -31,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bootstrap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+            <state relative-caret-position="345">
+              <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -66,9 +69,9 @@
       <list>
         <option value="$PROJECT_DIR$/.ipynb_checkpoints/bootstrap1.py" />
         <option value="$PROJECT_DIR$/boot.py" />
-        <option value="$PROJECT_DIR$/bootstrap.py" />
         <option value="$PROJECT_DIR$/bootstrap_vehicles.py" />
         <option value="$PROJECT_DIR$/vehicles.py" />
+        <option value="$PROJECT_DIR$/bootstrap.py" />
       </list>
     </option>
   </component>
@@ -116,7 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.vehicles">
+  <component name="RunManager" selected="Python.bootstrap">
     <configuration name="boot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="lab2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -353,13 +356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vehicles.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -382,11 +378,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vehicles.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
         </state>
       </provider>
     </entry>
